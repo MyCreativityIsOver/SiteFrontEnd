@@ -1,0 +1,89 @@
+#título {
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: 900;
+    color: rgb(104, 198, 221);
+    margin-top: 10%;
+    font-size: 450%;
+}
+#sub {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: bisque;
+    font-size: 300%;
+}
+.paragrafo {
+    text-align: center;
+   /* padding-left: 7%; isso faz com que o text align não funcione*/
+    color: bisque;
+}
+#infor {
+    text-align: right;
+    font-size: small;
+    font-weight: bold;
+   /* position: absolute;
+    top: 1700px;
+    right: 0px; isso faz com que o texto ignore todos os elementos e fique na posição definida*/
+    text-decoration-color: darkgoldenrod;
+    text-decoration: underline;
+}
+#banner{
+    width: 100%;
+    background-attachment: scroll;
+    scroll-behavior: auto;
+
+}
+.abraba{
+    padding: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#promoção{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(104, 198, 221);
+   
+}
+.pro_promocao{
+    text-align: left;
+    font-style: italic;
+    /*color: crimson;*/
+    position: relative;
+    /*top: 120px;
+    left: 30px;*/
+}
+.imagem_prom{
+    width: 70px;
+    height: 70px;
+}
+#batata{
+    width: 100%;
+}
+/*.cursor:hover{
+    cursor: pointer;
+}*/
+.cursor{
+    list-style: none;
+    font-size: 50px;
+    position:absolute;
+    top: 0px;
+    color: firebrick;
+    right: 5%;
+    display: block;
+}
+body {
+    background-image: url(banner.png);
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem no fundo */
+}
+a{
+    color: crimson;
+    text-decoration: none ;
+}
+a:visited{
+    color:cyan;
+}
+  

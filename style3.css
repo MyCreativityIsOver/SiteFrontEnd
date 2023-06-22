@@ -1,0 +1,11 @@
+#título {
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: 900;
+    color: rgb(104, 198, 221);
+}
+#banner{
+    width: 100%;
+    background-attachment: scroll;
+    scroll-behavior: auto;
+}

@@ -1,0 +1,45 @@
+.corzinha{
+    color: crimson;
+}
+#banner{
+    width: 100%;
+}
+#título {
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: 900;
+    color: rgb(104, 198, 221);
+}
+.paragrafo {
+    display: block;
+    text-align: left;
+    color: crimson;
+    position: absolute;
+    top: 1300px;
+    left: 150px;
+    font-size: 23px;
+
+    
+}
+.imagem_prom{
+    display: block;
+    width: 700px;
+    padding-left: 300px;
+}
+#infor {
+    text-align: right;
+    font-size: x-small;
+    color: firebrick;
+    font-weight: bold;
+    position: absolute;
+    top: 1700px;
+    right: 0px;
+}
+.pro_promocao{
+    text-align: left;
+    font-style: italic;
+    color: crimson;
+    position: relative;
+    top: 120px;
+    left: 30px;
+}
