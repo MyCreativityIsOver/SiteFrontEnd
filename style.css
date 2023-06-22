@@ -34,14 +34,14 @@
     scroll-behavior: auto;
 
 }
-.abraba{
+/*.abraba{
     padding: 35px;
     padding-top: 25px;
     padding-bottom: 25px;
-}
+} depois eu mexo com espaçamento*/
 #promoção{
     text-align: center;
-    font-size: 25px;
+    /*font-size: 25px;*/
     font-style: italic;
     color: rgb(104, 198, 221);
    
@@ -66,7 +66,7 @@
 }*/
 .cursor{
     list-style: none;
-    font-size: 50px;
+    font-size: 250%;
     position:absolute;
     top: 0px;
     color: firebrick;
