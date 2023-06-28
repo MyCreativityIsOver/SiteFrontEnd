@@ -81,13 +81,13 @@ body {
 a{
     color: dodgerblue;
     text-decoration: none ;
-    cursor: ;
+    cursor: pointer;
 }
 a:visited{
     color:cyan;
 }
-a:hover{
+/*a:hover{
     cursor: ;
-}
+}*/
   
   

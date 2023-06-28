@@ -14,12 +14,10 @@
     display: block;
     text-align: left;
     color: crimson;
-    position: absolute;
+    font-size: 120%;
+    /*position: absolute;
     top: 1300px;
-    left: 150px;
-    font-size: 23px;
-
-    
+    left: 150px;*/
 }
 .imagem_prom{
     display: block;
@@ -31,15 +29,21 @@
     font-size: x-small;
     color: firebrick;
     font-weight: bold;
-    position: absolute;
+    /*position: absolute;
     top: 1700px;
-    right: 0px;
+    right: 0px;*/
 }
 .pro_promocao{
     text-align: left;
     font-style: italic;
     color: crimson;
-    position: relative;
+    /*position: relative;
     top: 120px;
-    left: 30px;
+    left: 30px;*/
+}
+body {
+    background-image: url(banner.png);
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem no fundo */
 }
