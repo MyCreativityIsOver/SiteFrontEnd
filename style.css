@@ -69,9 +69,8 @@
     font-size: 250%;
     position:absolute;
     top: 0px;
-    color: firebrick;
+    color: darkslategrey;
     right: 5%;
-    display: block;
 }
 body {
     background-image: url(banner.png);
@@ -80,10 +79,15 @@ body {
     background-position: center; /* Centraliza a imagem no fundo */
 }
 a{
-    color: crimson;
+    color: dodgerblue;
     text-decoration: none ;
+    cursor: ;
 }
 a:visited{
     color:cyan;
 }
+a:hover{
+    cursor: ;
+}
+  
   
