@@ -12,7 +12,7 @@
 }
 .paragrafo {
     display: block;
-    text-align: left;
+    text-align: center;
     color: crimson;
     font-size: 120%;
     /*position: absolute;
@@ -36,8 +36,9 @@
 .pro_promocao{
     text-align: left;
     font-style: italic;
-    color: crimson;
-    /*position: relative;
+    list-style: none;
+    /*color: crimson;
+    position: relative;
     top: 120px;
     left: 30px;*/
 }
@@ -46,4 +47,17 @@ body {
     background-repeat: no-repeat; /* Evita que a imagem se repita */
     background-size: cover; /* Redimensiona a imagem para cobrir todo o fundo */
     background-position: center; /* Centraliza a imagem no fundo */
+}
+#preço{
+    color: crimson;
+    font-size: 150%;
+    text-align: center;
+}
+a{
+    color: dodgerblue;
+    text-decoration: none ;
+    cursor: pointer;
+}
+a:visited{
+    color:cyan;
 }
