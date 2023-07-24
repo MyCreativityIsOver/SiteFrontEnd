@@ -1,11 +1,17 @@
 #título {
     text-align: center;
     font-variant: small-caps;
-    font-weight: 900;
+    font-weight: bolder;
     color: rgb(104, 198, 221);
 }
-#banner{
+/*#banner{
     width: 100%;
     background-attachment: scroll;
     scroll-behavior: auto;
+}*/
+body {
+    background-image: url(banner.png);
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem no fundo */
 }
